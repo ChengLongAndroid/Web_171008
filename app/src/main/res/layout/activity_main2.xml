@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/led"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开灯"
+        />
+    <Button
+        android:id="@+id/led2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关灯"
+        />
+    <Button
+        android:id="@+id/vib3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="震动"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
